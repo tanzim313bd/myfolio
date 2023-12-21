@@ -1,0 +1,237 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+nav{
+    background-color: #02918b;
+}
+.container{
+    width: 1170px;
+  margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.heading{
+ text-align: center;
+}
+.heading h2{
+    color: #02918c;
+    font-weight: 800;
+    font-size: 46px;
+   
+}
+.heading p{
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 41px ;
+    
+}
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+    text-align: right; 
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+}
+/* Banner */
+#banner{
+   
+    background-image: url(../images/20\ Times\ David\ Beckham\ Showed\ You\ How\ to\ Dress\ Well\ in\ 2016\ \(1\).jpeg);
+    height: 727px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#banner .row{
+    height: 727px;
+}
+
+#banner .banner_cnt{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+#banner .banner_cnt h6{
+    font-size: 30px;
+    font-weight: 400;
+}
+#banner .banner_cnt h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+#banner .banner_cnt img{
+    margin: 50px 0;
+}
+#banner .banner_cnt a{
+    background-color: #cfc91d;
+    color: #0b1016;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 20px 42px;
+    display: inline-block;
+}
+
+
+.heading p strong{
+    font-size: 23px;
+}
+#about .heading p {
+    padding:  0 137px;
+
+}
+#about .heading{
+    padding-top: 97px;
+    padding-bottom: 120px;
+}
+#about .row{
+    padding-bottom: 157px;
+}
+#about .about_card{
+    width: 25%;
+    border-right: 1px solid #CACFD2;
+    padding: 37px 60px;
+    color: #7e8287;
+}
+#about .about_card h3{
+    padding: 30px 0;
+ 
+}
+#about .about_card:last-child{
+    border-right: none;
+}
+.text-center{
+    text-align: center;
+}
+#service {
+    background-image: url(./../images/MYFOLIO\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 74px 0;
+}
+#service .inner_container{
+    width: 50%;
+}
+#service .heading{
+    text-align: left;
+    
+}
+#service .service_card h3{
+    padding: 22px 0;
+}
+#service .service_card{
+    width: 50%;
+    padding-right: 110px;
+    margin-top: 56px;
+    color: #7e8287;
+}
+#mywork .heading p{
+    padding: 0 237px;
+}
+#mywork .heading{
+    padding-top: 111px;
+    padding-bottom: 81px;
+}
+#mywork .mywork_card{
+    width: 25%;
+    position: relative;
+}
+#mywork .mywork_card img{
+    width: 100%;
+    height: 100%;
+}
+#mywork .mywork_card .overlay{
+    position: absolute;
+    background-color: rgba(2, 145, 140, 0.85);
+    inset: 20px 28px;
+    transform: scale(0);
+    transition:.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+#mywork .mywork_card .overlay h4{
+    padding-bottom:18px ;
+  font-size: 16px;
+}
+#mywork .mywork_card .overlay p{
+    font-size: 13px;
+}
+#mywork .mywork_card:hover .overlay{
+   transform: scale(1);
+   
+}
+#contact .heading p {
+    padding: 0 237px;
+}
+#contact .heading{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+#contact .contact_form{
+    background-color: #0a0a0b;
+}
+#contact .contact_form input{
+    display: block;
+    margin: 0 auto;
+    background: none;
+    padding: 18px;
+    text-align: center;
+    color: #7e8287;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+    margin-bottom: 51px;
+}
+#contact .contact_form input:focus{
+    outline: none;
+    border-bottom-color:#02918b ;
+    transition: 1s;
+}
+#contact .contact_form input:nth-child(1),
+#contact .contact_form input:nth-child(2){
+    width: 640px;
+}
+#contact .contact_form input:nth-child(3),
+#contact .contact_form input:nth-child(4){
+    width: 920px;
+}
+.button{
+    background-color: #cfc91d;
+    color: #0b1016;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 20px 65px;
+    display: inline-block;
+    cursor: pointer;
+}
